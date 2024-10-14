@@ -1,0 +1,37 @@
+h3{
+    margin:0;
+    color:rgb(0, 83, 0);
+    display: -webkit-box;           
+    -webkit-box-orient:vertical;    
+    -webkit-line-clamp: 3;          
+    overflow: hidden; 
+    text-overflow: ellipsis;      
+}
+p{
+    color:black;
+    display: -webkit-box;           
+    -webkit-box-orient:vertical;    
+    -webkit-line-clamp: 5;          
+    overflow: hidden;                
+    text-overflow: ellipsis;  
+}
+.top{
+    gap:5px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction:row;
+}
+.no{
+    user-select: none;
+    color:rgb(255, 255, 255);
+    background-color: green;
+    padding:5px;
+    min-width: 25px;
+    aspect-ratio: 1/1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}

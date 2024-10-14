@@ -1,0 +1,21 @@
+.posts {
+
+    padding: 10px;
+    width: calc(100% - 20px);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(243, 255, 248);
+    flex: 1 1 330px;
+    max-width: 650px;
+    height:230px;
+    overflow: hidden;
+}
